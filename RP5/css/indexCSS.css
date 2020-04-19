@@ -1,0 +1,272 @@
+body{
+    background-color: #44cfcb;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Sizing the images and aligning them*/
+#fullBrain img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+
+}
+
+#vPart img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+
+}
+
+#accPart img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+
+}
+
+#naPart img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+}
+
+#pccPart img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+}
+
+#tPart img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+}
+
+#htPart img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+}
+
+#lab img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+}
+
+
+/* Setting the main screen and centering title*/
+#intro {
+    height: 100vh;
+    background: radial-gradient(circle, #ebebeb 0%, #44cfcb 50%);
+    text-align: center;
+    color: #122c34;
+    font-size: 4em;
+    z-index: 0;
+}
+
+#intro .grat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Background on project: centering the paragraph */
+#explain{
+    background-color: rgba(218, 194, 207, 0.7);
+
+}
+.explainP{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25em;
+    position: relative;
+    padding: 50px 0;
+    width: 55%;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* *randomizing* placement of the words on the page as user scrolls */
+.words{
+    position: relative;
+    padding: 15% 0;
+    opacity: 0;
+    transition: all 1s ease-out;
+    font-size: 2em;
+    color: #122c34;
+}
+
+.one{
+     padding-left: 63%;
+ }
+.two{
+    padding-left: 10%;
+}
+.three{
+    padding-left: 74%;
+}
+.four{
+    padding-left: 26%;
+}
+.five{
+    padding-left: 63%;
+}
+.six{
+    padding-left: 13%;
+}
+.seven{
+    padding-left: 24%;
+}
+.eight{
+    padding-left: 56%;
+}
+.nine{
+    padding-left: 8%;
+}
+.ten{
+    padding-left: 59%;
+}
+.eleven{
+    padding-left: 50%;
+}
+.twelve{
+    padding-left: 21%;
+}
+.thirteen{
+    padding-left: 11%;
+}
+.fourteen{
+    padding-left: 83%;
+}
+.fifteen{
+    padding-left: 14%;
+}
+.sixteen{
+    padding-left: 26%;
+}
+.seventeen{
+    padding-left: 63%;
+}
+.eighteen{
+    padding-left: 13%;
+}
+.nineteen{
+    padding-left: 74%;
+}
+.twenty{
+    padding-left: 46%;
+}
+.twentyone{
+    padding-left: 9%;
+}
+.twentytwo{
+    padding-left: 33%;
+}
+.twentythree{
+    padding-left: 64%;
+}
+.twentyfour{
+    padding-left: 16%;
+}
+.twentyfive{
+    padding-left: 73%;
+}
+.twentysix{
+    padding-left: 29%;
+}
+.twentyseven{
+    padding-left: 70%;
+}
+.twentyeight{
+    padding-left: 21%;
+}
+.twentynine{
+    padding-left: 7%;
+}
+.thirty{
+    padding-left: 83%;
+}
+.words.fade-in{
+    opacity: 1;
+}
+
+/*breathing room at bottom of page past words */
+
+/*#newScreen{*/
+    /*height:100vh;*/
+    /*width:auto;*/
+/*}*/
+
+.arrow {
+    box-sizing: border-box;
+    height: 3vw;
+    width: 3vw;
+    border-style: solid;
+    border-color: #dac2cf;
+    border-width: 1px 0px 0px 1px;
+    transform: translateY(85vh) rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+    border-top-width: 4px;
+    border-left-width: 4px;
+}
+
+#newScreen {
+    display: flex;
+    justify-content: center;
+    background-color: #122c34;
+    height: 100vh;
+
+}
+
+.preBox{
+    background-color: rgba(218, 194, 207, 0.8);
+}
+.pre{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    padding: 50px 0;
+    font-size: 1.5em;
+    line-height: 1.25;
+    color: #122c34;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.spacer{
+    height:75vh;
+    width:auto;
+}
+
+
