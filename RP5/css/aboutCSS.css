@@ -3,4 +3,40 @@ body{
     font-family: 'DM Serif Display', serif;
 }
 
+#aboutProject {
+    height: 100vh;
+    background: radial-gradient(circle, #122c34 0%,#44cfcb 80%);
+    text-align: center;
+    color: #dac2cf;
+    font-size: 2em;
+    z-index: 0;
+}
 
+#aboutProject h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#aboutPara{
+    background-color: #44cfcb;
+
+}
+
+#aboutPara p{
+    color: #122c34;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25em;
+    position: relative;
+    padding-top: 50px;
+    width: 75%;
+    line-height: 1.3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p3{
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
