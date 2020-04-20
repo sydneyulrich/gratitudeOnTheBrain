@@ -3,4 +3,94 @@ body{
     font-family: 'DM Serif Display', serif;
 }
 
+#studies {
+    height: 100vh;
+    text-align: center;
+    color: #dac2cf;
+    font-size: 2em;
+}
+#studies h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+/* Background on project: centering the paragraph */
+#explain{
+    background-color: rgba(218, 194, 207, 0.7);
+
+}
+.explainP{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25em;
+    position: relative;
+    padding: 50px 0;
+    width: 55%;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#study1img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+}
+
+#study2img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+
+}
+
+#study3img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    max-width: 1300px;
+    height:auto;
+
+}
+
+#subStudy1, #subStudy2, #subStudy3{
+    background-color: rgba(218, 194, 207, 0.7);
+
+}
+#study1para, #study2para, #study3para{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25em;
+    position: relative;
+    padding: 50px 0;
+    width: 55%;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#subStudy3{
+    padding-bottom:50px;
+}
+
+.study1title, .study2Title, .study3Title{
+    color: #dac2cf;
+    font-size: 2em;
+    text-align:center;
+    line-height: 1.2;
+    position: relative;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+}
